@@ -1,12 +1,29 @@
+/***  CSS for Horiseon Social Solution Services  ***/
+
+/***   Applies for the whole page ***/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/***   Applies for the elements    ***/
+
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/***         Header part         ***/
 
 .header {
     padding: 20px;
@@ -41,14 +58,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/***         Background image          ***/
 
 .hero {
     height: 800px;
@@ -58,6 +68,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/***         Main content - articles      ***/
+/* Removed the redundant class selectors and
+replaced with content-article class selector*/
 
 .float-left {
     float: left;
@@ -74,38 +88,6 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
- 
-}
-
-
-
-.benefit-section{
-     margin-bottom: 32px; 
-    color: #ffffff;  
-}
-
-.benefit-section h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-section img{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px; 
-}
-
-
 
 .content-article{
     margin-bottom: 20px;
@@ -125,6 +107,40 @@ p {
     font-size: 36px;
 }
 
+/***       Sidebar - Benefits section      ***/
+/* Removed the redundant class selectors and
+replaced with benefit-section class selector */
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ 
+}
+
+.benefit-section{
+     margin-bottom: 32px; 
+    color: #ffffff;  
+}
+
+.benefit-section h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-section img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px; 
+}
+
+/***        Footer part          ***/
 
 
 .footer {
