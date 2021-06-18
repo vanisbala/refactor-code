@@ -1,4 +1,4 @@
-# refactor-code
+# Horiseon Social Solution Services Code Refactoring
 
 I did refactoring of the existing code in this project.
     
@@ -17,6 +17,8 @@ I did refactoring of the existing code in this project.
 - Providing meaningful comments in CSS file
 - How to follow the logical,semantic structure in HTML and css files
 - How to deploy the project
+
+![Website-Image](./assets/images/horesion-website.png)
 
 ## Getting started
 
